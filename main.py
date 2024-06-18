@@ -6,7 +6,7 @@ def main():
     # regular = 100
     # rate = 20
 
-    discount_amount = 40     # complete this statement to calcualte the discount amount
+    discount_amount = (original_price * rate)/ 100     # complete this statement to calcualte the discount amount
     final_price = original_price - discount_amount        # complete this statement to calculate the final price
 
     print(f'Regular Price: {original_price}')
